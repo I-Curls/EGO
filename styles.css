@@ -1,0 +1,102 @@
+body { 
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(15,184,186,1) 48%);
+    height: 100vh;
+    margin: 0px;
+}
+
+.menu {
+    background: #090909;
+    display: flex;
+}
+
+.saveState {
+    margin: 1px 15px 1px 15px;
+    background: none;
+    color: white;
+    border: none;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 9em;
+    margin: auto;
+}
+
+#tituloArco {
+    color: #FFF;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#dayMark {
+    text-align: center;
+    margin:  auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.socialPost {
+    width: 60vh;
+    height: 10vh;
+    max-width: 60%;
+    max-height: 150px;
+    background-color: bisque;
+    display: block;
+    margin: auto auto 1em auto;
+    opacity: 0.4;
+}
+
+.marker {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: inline-block;
+    margin: auto;
+}
+
+#mainTextArea {
+    height: 30vh;
+    max-height: 300px;
+    background-color: azure;
+    display: block;
+    margin: -2.5em auto 1em auto;
+}
+
+.screen {
+    width: 80vh;
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#marker1 {
+    margin-left: 3%;
+}
+
+.optionBtn {
+    height: fit-content;
+    width: 70vh;
+    min-height: 20px;
+    max-width: 80%;
+    display: block;
+    margin: 0.5em auto auto auto;
+}
+
+.allOptions {
+    margin: auto;
+    z-index: auto;
+}
+
+.bgImage {
+    margin: -20% auto auto auto;
+    width: 100%;
+    z-index: -1;
+    position:relative;
+}

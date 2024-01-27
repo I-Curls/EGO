@@ -3,31 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>EGO!</title>
 </head>
 <body>
-    <h1> <!-- título --> </h1>
-    <nav>
-        <!-- menu -->
+    <nav class="menu">
+        <button type="button" class="saveState">SAVE</button>
+        <button type="button" class="saveState">LOAD</button>
     </nav>
-
+    <h1>EGO!</h1>
     <main>
         <header>
+            <h2 id="tituloArco">Capítulo 1: Você tem o poder.</h2>
             <!-- situação atual -->
+            <p id="dayMark">Day 1</p>
+            <div class="socialPost">
+                <!-- Social media posts sobre acontecimentos -->
+            </div>
         </header>
+        <div class="screen">
+            <div class="marker" id="marker1">
+                <img src="/">
+            </div>
+            <div class="marker" id="marker2">
+                <img src="/">
+            </div>
+            <div class="marker" id="marker3">
+                <img src="/">
+            </div>
+        <div id="mainTextArea">
+            <p id="mainText">
+                <!-- main tezt here -->
+            </p>
 
-        <!-- 
-            [ ] Marcadores
-            [ ] Texto principal
-            [ ] Botões
-         -->
+        </div>
 
-         <footer>
-            <!-- Avisos -->
-        </footer>
+        <div class="allOptions">
+            <button type="button" class="optionBtn" id="option1"></button>
+            <button type="button" class="optionBtn" id="option2"></button>
+            <button type="button" class="optionBtn" id="option3"></button>
+            <button type="button" class="optionBtn" id="option4"></button>
+            <button type="button" class="optionBtn" id="option5"></button>
+            <button type="button" class="optionBtn" id="option6"></button>
+        </div>
+</div>
+        <img src="skyline.png" class="bgImage">
     </main>
-
-    <script src="/Scripts.js"></script>
+    <footer>
+        <!-- Avisos -->
+    </footer>
+    <script src="Scripts.js"></script>
 </body>
 </html>
