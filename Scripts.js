@@ -78,7 +78,10 @@ function atualizaEvento(evento) {
     for (let i = 0; i < evento['update_button'].length; i++) {
         buttons[i].style.display = 'block';
         buttons[i].innerText = evento['button text'][i];
-        buttons[i].onclick = () => evento['update_button'][i]();
+        buttons[i].onclick = () => {
+            evento['update_button'][i]();
+            text.scrollIntoView({ behavior: 'smooth' }); // Scroll to mainText
+        };
         text.innerText = evento['text'];
     };
 };
